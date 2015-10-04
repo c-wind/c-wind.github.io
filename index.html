@@ -19,8 +19,8 @@
   <body>
     <header>
       <div class="inner">
-        <h1>CodeCn</h1>
-        <h2>分布式存储，邮件解析，网站采集</h2>
+        <h1>开源项目</h1>
+        <h2>分布式存储，邮件解析，网站采集, VIM插件</h2>
         <a href="https://github.com/c-wind" class="button"><small>Follow me on</small> GitHub</a>
       </div>
     </header>
@@ -29,15 +29,25 @@
       <div class="inner clearfix">
         <section id="main-content">
         <h3><a href="https://github.com/c-wind/tdss" >tdss</a></h3>
-<p>
-分布式存储系统
-</p>
+            <p>
+            TDSS是一个高可扩展、高可用、高性能、面向互联网服务的分布式存储系统，主要针对海量的非结构化数据，它构筑在普通的Linux机器集群上，可为外部提供高可靠和高并发的存储访问。它采用了HA架构和平滑扩容，保证了整个文件系统的可用性和扩展性。同时扁平化的数据组织结构，可将文件名映射到文件的物理地址，简化了文件的访问流程，一定程度上为TDSS提供了良好的读写性能。
+            </p>
 
         <h3><a href="https://github.com/c-wind/cwind" >cwind</a></h3>
-<p>
-一个网页定向采集程序
-</p>
+            <p>
+            一个网页定向采集程序,可根据数据库中配置url及过滤规则自动检测目标站点变化自动采集入库，linux c 实现的源码，支持多进程多任务同时采集
+            </p>
 
+        <h3><a href="https://github.com/hellotomcat/supersearch" >supersearch</a></h3>
+        <p>
+            这个项目是用来加速vim开发效率的
+            <br />
+            1. 由于历史原因我们的项目目录中有许多无关的目录包含着无关的代码，导致生成的tags文件往往没有实际用途
+            <br />
+            2. 当我们需要查看谁调用谁的问题时，要用:grep命令来搜索整个项目目录，相当不方便
+            <br />
+            现在好了,有了supersearch插件，只要配置好与自己有关和目录，生成tags的事再也不用担心了（会自动生成tags文件），还能根据配置的目录进行全文搜索
+        </p>
         <h3><a href="https://github.com/c-wind/go.mime" >go.mime</a></h3>
         <p>
             go.mime是一个解析mime格式的golang库，常用于邮件解析
